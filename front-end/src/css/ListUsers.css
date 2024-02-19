@@ -1,0 +1,46 @@
+.title-listUsers {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  color: white;
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1c1c1cec;
+}
+
+.ul-listUsers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.li-listUsers {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  margin: 25px;
+}
+
+.list-use-img {
+  border: solid red 1px;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (max-width: 450px) and (max-height: 950px) {
+  .list-container {
+    width: 100%;
+  }
+  .ul-listUsers {
+    width: 100%;
+  }
+}
