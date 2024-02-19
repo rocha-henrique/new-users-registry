@@ -23,7 +23,7 @@ npm install`
   - `yarn add vite@latest`
   - `rm -rf node_modules yarn`
  
-- (banco de dados)
+**(banco de dados)**
 - Imagem MySql utilizada: mysql:8.0.29
   - ⚠️ Garanta que a senha do banco esteja de acordo com a presente no .env
   - docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha_mysql -d -p 3306:3306 mysql:8.0.29  
