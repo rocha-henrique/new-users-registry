@@ -100,13 +100,13 @@ npm install`
 
 ## Perguntas teoricas
 
-1. A diferença entre back-end e front-end em uma aplicação web, o back-end é responsável pela lógica e processamento de dados do lado do servidor, enquanto o front-end lida com a interface do usuário e interações do lado do cliente.
+1. O back-end é responsável pela lógica e processamento de dados do lado do servidor, enquanto o front-end lida com a interface do usuário e interações do lado do cliente.
 
 2. Os principais componentes de um servidor web incluem o servidor em si (como o Node.js), o sistema de gerenciamento de banco de dados, a lógica de negócios, e a camada de apresentação. Eles se relacionam para processar as requisições do cliente, acessar os dados necessários e fornecer uma resposta.
 
 3. A arquitetura MVC (Model-View-Controller) é importante no desenvolvimento de aplicações web, pois separa a lógica de negócios (Model), a apresentação (View) e o controle de interações (Controller), facilitando a manutenção e a escalabilidade da aplicação.
 
-4. As linguagens de programação comumente usadas, no back-end temos Node.js, Python, Java, Ruby, entre outras, devido à sua capacidade de lidar com operações de servidor e banco de dados. No front-end, temos JavaScript, HTML, CSS, e frameworks como React, Angular, Vue, devido à sua capacidade de criar interfaces de usuário interativas.
+4. Dentre as linguagens de programação comumente usadas no back-end temos Node.js, Python, Java, Ruby, entre outras, devido à sua capacidade de lidar com operações de servidor e banco de dados. No front-end, temos JavaScript, HTML, CSS, e frameworks como React, Angular, Vue, devido à sua capacidade de criar interfaces de usuário interativas.
 
 5. Os principais desafios ao desenvolver aplicações web full-stack, temos a sincronização entre front-end e back-end, segurança, escalabilidade, e manutenção do código.
 
