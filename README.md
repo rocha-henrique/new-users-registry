@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto *New Users Registry*
 
-Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua maquina e mais alguns detalhes de dependencias e os beneficios que enconttrei para a criação deste projeto Full-Stack.
+Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua maquina e mais alguns detalhes de dependencias e os beneficios que enconttrei para a criação deste projeto Full-Stack!
 
 ## Como iniciar o projeto
 
