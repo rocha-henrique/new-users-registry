@@ -10,10 +10,10 @@ Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua m
 
 **(back-end)**
 
-- Na pasta front-end instale as dependências utilizando o comando`npm install`. Para executar o projeto criado, utilize o comando `env $(cat .env) npm run dev` para deixar o servidor aberto utilizando o `nodemon`.
+- Na pasta  back-end instale as dependências utilizando o comando`npm install`. Para executar o projeto criado, utilize o comando `env $(cat .env) npm run dev` para deixar o servidor aberto utilizando o `nodemon`.
 
 **(front-end)**
-- Na pasta back-end instale as dependências utilizando o comando `npm install`. Para executar o projeto criado, utilize o comando `npm run dev` para abrir o servidor front-end.
+- Na pasta front-end instale as dependências utilizando o comando `npm install`. Para executar o projeto criado, utilize o comando `npm run dev` para abrir o servidor front-end.
   - OBS: caso o Vite não seja compativel utilize os seguintes comandos para abrir o servidor front-end:
   - `npm install vite@latest`
   - `rm -rf node_modules
