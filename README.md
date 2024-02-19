@@ -4,7 +4,7 @@ Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua m
 
 ## Como iniciar o projeto
 
-- Use o comando: `git clone git@github.com:rocha-henrique/New-User-Registry.git`.
+- Use o comando: `git clone git@github.com:rocha-henrique/new-users-registry.git`.
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd New-Users-Registry`
 
@@ -24,7 +24,7 @@ Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua m
 
 1. Clone o repositório
 
-- Use o comando: `git clone git@github.com:rocha-henrique/New-User-Registry.git`.
+- Use o comando: `git clone git@github.com:rocha-henrique/new-users-registry.git`.
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd full-stack-project`
 - Crie uma branch especifica onde serão feitas as suas modificaçoes
