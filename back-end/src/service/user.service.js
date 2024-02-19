@@ -39,7 +39,7 @@ const updateUser = async (id, fullName, email, phoneNumber, cellPhoneNumber) => 
     { where: { id } },
   );
 
-  console.log(updatedUser); // confira o que é retornado quando o user com o id é ou não encontrado;
+  console.log(updatedUser);
   return updatedUser;
 };
 
@@ -49,8 +49,7 @@ const deleteUser = async (id) => {
   const user = await User.destroy(
     { where: { id } },
   );
-
-  console.log(user); // confira o que é retornado quando o user com o id é ou não encontrado;
+  console.log(user);
   return user;
 };
 
