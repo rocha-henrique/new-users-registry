@@ -1,10 +1,33 @@
-.title-listUsers {
-  font-size: 40px;
-  font-weight: 800;
-  margin-top: 10vh;
-  margin-bottom: 7vh;
+.page-listUsers {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  text-align: center;
+}
+
+.formas-listUsers {
+  width: 57rem;
+  max-height: 50rem;
+  z-index: -1;
+  position: absolute;
+  border: 0ch;
+  right: 60%;
+  bottom: 60%;
+  transform: scaleX(-1);
+  rotate: -170deg;
+}
+
+.ramo-listUsers {
+  width: 60rem;
+  max-height: 60rem;
+  z-index: -1;
+  position: absolute;
+  left: 78%;
+  top: 6vh;
+  transform: scaleX(-1);
 }
 
 .list-container {
@@ -13,8 +36,18 @@
   justify-content: center;
   flex-direction: column;
   width: 80%;
+  border-radius: 50px;
   margin: 0 auto;
   background-color: #1c1c1cec;
+}
+
+.title-listUsers {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  color: white;
+  text-align: center;
 }
 
 .ul-listUsers {

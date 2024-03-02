@@ -35,13 +35,13 @@
   margin-top: 15px;
 }
 
-.formas {
-  width: 850px;
-  height: 850px;
-  position: absolute;
+.formas-createUser {
+  width: 50rem;
+  max-height: 50rem;
   z-index: -1;
-  margin-right: 190vh;
-  margin-bottom: 50vh;
+  position: absolute;
+  right: 75.5%;
+  bottom: 32%;
 }
 
 .img-logo {

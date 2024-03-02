@@ -11,7 +11,7 @@ const CreateUser: React.FC = () => {
     <>
       <Navbar />
       <div className='container-createUser'>
-        <img className='formas' src={ formas } alt="" />
+        <img className='formas-createUser' src={ formas } alt="" />
         <Form />
         <h1 className='title'>Crie um novo usuário</h1>
         <img className='img-logo' src={ avatar1 } alt="" />

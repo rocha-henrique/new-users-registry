@@ -97,7 +97,7 @@ npm install`
     - Eslint
     - Vite
     - TypeScript
-    - React-bootstrap 
+    - React-bootstrap // Não utilizado apenas instalado
     - React-router-dom
 </details>
 
