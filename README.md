@@ -8,8 +8,6 @@ Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua m
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd new-users-registry`
 
----
-
 
 **(banco de dados)**
 - Imagem MySql utilizada: mysql:8.0.29
@@ -18,14 +16,10 @@ Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua m
 - Caso precise subir ou baixar o container docker para rodas o banco de dados utilize o seguinte comando:
   - `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha_mysql -d -p 3306:3306 mysql:8.0.29`  
 
----
-
 
 **(back-end)**
 
 - Na pasta  back-end instale as dependências utilizando o comando`npm install`. Para executar o projeto criado, utilize o comando `env $(cat .env) npm run dev` para deixar o servidor aberto utilizando o `nodemon`.
-
----
 
 
 **(front-end)**
