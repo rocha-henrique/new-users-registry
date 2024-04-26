@@ -16,7 +16,7 @@ Aqui você vai encontrar os detalhes de como executar e rodar o projeto em sua m
 - Caso precise subir ou baixar o container docker para rodas o banco de dados utilize o seguinte comando no seu terminal:
   - `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha_mysql -d -p 3306:3306 mysql:8.0.29`
 
-- Caso queira resetar o `banco de dados` basta esta dentro da pasta `back-end - src - database` rode os seguintes comandos no seu terminal:
+- Caso queira resetar o `banco de dados` basta estar dentro da pasta `back-end - src - database` rode os seguintes comandos no seu terminal:
   - `env $(cat .env) npx sequelize db:seed:undo:all`
 
 - Depois de resetar o `banco de dados` basta subir novamente com o seguinte comando no seu terminal:
