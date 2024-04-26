@@ -256,6 +256,3 @@ Com o `Sequelize`, eu pude definir modelos, criar migrações e realizar operaç
   - `migrations-path`: é um caminho para o diretório de migrations.
 
 ---
-
-### Agradecimento Especial
-Gostaria de agradecer ao [Bruno mancini] por fornecer a oportunidade de trabalhar neste projeto desafiador.Os requisitos foram fundamentais para o meu crescimento profissional. Agradeço pela confiança e pela oportunidade de construir este projeto.
