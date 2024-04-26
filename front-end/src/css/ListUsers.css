@@ -31,7 +31,8 @@
 .subTitle-listUsers  {
   display: flex;
   justify-content: space-around;
-  width: 101%;
+  width: 102%;
+  margin-left: 10px;
   font-size: 30px;
   font-weight: 500;
   margin-top: 3vh;
