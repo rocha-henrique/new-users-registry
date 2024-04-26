@@ -23,7 +23,7 @@ const Form: React.FC = () => {
       const spaceIndex = fullName.indexOf(' ');
       const isFullNameValid = spaceIndex !== -1 && spaceIndex !== 0 && spaceIndex !== fullName.length - 1;
       const isEmailValid = Boolean(newUser.email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(newUser.email));
-      const isPhoneValid = Boolean(newUser.phoneNumber && /^\d{10,11}$/.test(newUser.phoneNumber));
+      const isPhoneValid = Boolean(newUser.cellPhoneNumber && /^\d{11,12}$/.test(newUser.cellPhoneNumber));
 
       setIsButtonEnabled(isFullNameValid && isEmailValid && isPhoneValid);
     }
@@ -46,22 +46,22 @@ const Form: React.FC = () => {
         <label className='label-form' htmlFor="fullName">Nome e sobrenome:</label>
           <div className='container-img'>
             <img className='container-icons' src={ userIMG } alt="" />
-            <input className='container-input' placeholder='ex: alan turing' type="text" id="fullName" name="fullName" value={user.fullName || ''} onChange={handleInputChange} />
+            <input className='container-input' placeholder='ex: Alan Turing' type="text" id="fullName" name="fullName" value={user.fullName || ''} onChange={handleInputChange} />
           </div>
         <label className='label-form' htmlFor="email">Email:</label>
           <div className='container-img'>
             <img className='container-icons' src={ emailIMG } alt="" />
             <input className='container-input' placeholder='ex: alan@example.com' type="text" id="email" name="email" value={user.email || ''} onChange={handleInputChange} />
           </div>
-        <label className='label-form' htmlFor="phoneNumber">Telefone:</label>
-          <div className='container-img'>
-          <img className='container-icons' src={ phoneIMG } alt="" />
-            <input className='container-input' placeholder='ex: 11999999999' type="text" id="phoneNumber" name="phoneNumber" value={user.phoneNumber || ''} onChange={handleInputChange} />
-          </div>
         <label className='label-form' htmlFor="cellPhoneNumber">Telefone Celular</label>
           <div className='container-img'>
             <img className='cellPhone' src={ cellPhoneIMG } alt="" />
-            <input className='container-input' placeholder='Opcional:' type="text" id="cellPhoneNumber" name="cellPhoneNumber" value={user.cellPhoneNumber || ''} onChange={handleInputChange} />
+            <input className='container-input' placeholder='ex: 11999999999' type="text" id="cellPhoneNumber" name="cellPhoneNumber" value={user.cellPhoneNumber || ''} onChange={handleInputChange} />
+          </div>
+        <label className='label-form' htmlFor="phoneNumber">Telefone:</label>
+          <div className='container-img'>
+          <img className='container-icons' src={ phoneIMG } alt="" />
+            <input className='container-input' placeholder='Opcional:' type="text" id="phoneNumber" name="phoneNumber" value={user.phoneNumber || ''} onChange={handleInputChange} />
           </div>
         <button className='btn-criar' onClick={handleSubmit} disabled={!isButtonEnabled}>Criar</button>
       </div>

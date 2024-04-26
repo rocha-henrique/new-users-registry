@@ -8,6 +8,58 @@
   color: white;
 }
 
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #1c1c1cec;
+}
+
+.title-listUsers {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  color: #e3680f;
+  text-align: center;
+}
+
+.subTitle-listUsers  {
+  display: flex;
+  justify-content: space-around;
+  width: 101%;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  color: #e3680f;
+}
+
+.ul-listUsers {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.li-listUsers {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  width: 70%;
+  height: 30%;
+  padding: 5px;
+  word-break: break-all;
+}
+
+.list-use-img {
+  position: absolute;
+  z-index: -1;
+}
+
 .formas-listUsers {
   width: 57rem;
   max-height: 50rem;
@@ -28,45 +80,6 @@
   left: 78%;
   top: 6vh;
   transform: scaleX(-1);
-}
-
-.list-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 80%;
-  border-radius: 50px;
-  margin: 0 auto;
-  background-color: #1c1c1cec;
-}
-
-.title-listUsers {
-  font-size: 40px;
-  font-weight: 800;
-  margin-top: 10vh;
-  margin-bottom: 7vh;
-  color: white;
-  text-align: center;
-}
-
-.ul-listUsers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.li-listUsers {
-  display: flex;
-  color: white;
-  font-size: 30px;
-  margin: 25px;
-}
-
-.list-use-img {
-  border: solid red 1px;
-  position: absolute;
-  z-index: -1;
 }
 
 @media (max-width: 450px) and (max-height: 950px) {
